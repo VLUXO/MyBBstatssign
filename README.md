@@ -3,7 +3,7 @@ MyBB Forum Stats Signature for advertisements
 
 Result:
 
-![](https://post4vps.com/signstats.php)
+![](http://puu.sh/pstWG/c3f0aede55.png)
 
 You can customize this Stats Signature according to your needs, This is released under GNU GPL V3.
 
