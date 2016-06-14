@@ -6,6 +6,8 @@ Installation:
 
 Place all three files(signstats.php, stats.png and roung.otf) in your forum root URL. Direct access to file signstats.php is disabled to access it directly remove the line 9 completely or add // at starting of line 9.
 
+Note: You are required to have all three files on your root folder for your forum as it is based on MyBB's Global core files.
+
 
 Result:
 
