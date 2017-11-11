@@ -34,9 +34,9 @@
     //PHP function to write text on image using font
     $img = imagecreatefrompng($bg);
     $fontcol = imagecolorallocate($img, 255, 255, 0);
-    imagettftext($img,11,0,20,30,$fontcol,$font,utf8_decode($lang->members).' '.$stats['numusers']);
-    imagettftext($img,11,0,144,30,$fontcol,$font,utf8_decode($lang->posts).' '.$stats['numposts']);
-    imagettftext($img,11,0,271,30,$fontcol,$font,utf8_decode($lang->threads).' '.$stats['numthreads']);
+    imagettftext($img,11,0,20,30,$fontcol,$font,utf8_decode($lang->members).' '.number_format($stats['numusers']));
+    imagettftext($img,11,0,144,30,$fontcol,$font,utf8_decode($lang->posts).' '.number_format($stats['numposts']));
+    imagettftext($img,11,0,271,30,$fontcol,$font,utf8_decode($lang->threads).' '.number_format($stats['numthreads']));
     imagettftext($img,11,0,98,60,$fontcol,$font,$forum);
     imagepng($img);
     imagedestroy($img);
